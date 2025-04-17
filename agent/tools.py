@@ -7,6 +7,12 @@ from langgraph.types import Command
 from langchain_core.messages import ToolMessage
 from apify_client import ApifyClient
 
+from agent.flight_tools import (
+    return_flights,
+    search_flights_with_apify,
+    set_flight_details,
+)
+
 
 @tool
 def search_hotels_with_apify(
@@ -135,4 +141,7 @@ BOOKING_AGENT_TOOLS: List[Callable[..., Any]] = [
     set_desired_language,
     retrieve_desired_language,
     return_hotels,
+    set_flight_details,
+    search_flights_with_apify,
+    return_flights,
 ]

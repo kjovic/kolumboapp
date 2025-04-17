@@ -1,49 +1,37 @@
-from typing import Optional, List, Dict
-from pydantic import BaseModel
+# agent/state.py (ili gdje god definiraš State)
+from typing import Dict, List, Optional
 from langgraph.prebuilt.chat_agent_executor import AgentState
 
-
-class Address(BaseModel):
-    full: str
-    postalCode: Optional[str]
-    street: Optional[str]
-    country: Optional[str]
-    region: Optional[str]
-
-
-class CategoryReview(BaseModel):
-    title: str
-    score: float
-
-
-class Hotel(BaseModel):
-    name: str
-    description: Optional[str]
-    address: Address
-    stars: Optional[int]
-    rating: Optional[float]
-    reviews: Optional[int]
-    categoryReviews: Optional[List[CategoryReview]]
-    price: Optional[float]
-    currency: Optional[str]
-    checkIn: Optional[str]
-    checkOut: Optional[str]
-    image: Optional[str]  # Main image
-    images: Optional[List[str]]  # All images
-    booking_url: str
+# Importiraj modele koje si definirao (pretpostavimo da su u agent/models/booking.py i agent/models/flights.py)
+from agent.models.booking import Hotel
+from agent.models.flights import FlightData  # Importiraj FlightData model
 
 
 class State(AgentState):
+    # --- Existing Booking Fields ---
     active_agent: Optional[str]
     desired_language: Optional[str]
-    destination_location: Optional[str]
-    hotels: Optional[List[Hotel]]  # Lista hotela
-    selected_hotel: Optional[Hotel]  # Kada user izabere hotel
-    travel_dates: Optional[Dict]  # {"check_in": "...", "check_out": "..."}
-    travelers: Optional[int]
-    children: Optional[int]
+    destination_location: Optional[str]  # Može se koristiti i za letove
+    hotels: Optional[List[Hotel]]
+    selected_hotel: Optional[Hotel]
+    travel_dates: Optional[
+        Dict
+    ]  # {"check_in": "...", "check_out": "..."} - Možda preimenovati u booking_dates?
+    travelers: Optional[int]  # Može se koristiti i za letove
+    children: Optional[int]  # Može se koristiti i za letove
     rooms: Optional[int]
     min_score: Optional[str]
     property_type: Optional[str]
     max_price: Optional[str]
-    user_query: Optional[str]
+    user_query: Optional[str]  # Dodajemo ovo za općeniti upit
+
+    # --- New Flight Fields ---
+    origin_location: Optional[str] = None  # Mjesto polaska leta
+    # destination_location se može dijeliti, ali ako želiš odvojeno: flight_destination_location: Optional[str] = None
+    departure_date: Optional[str] = None  # Datum polaska leta
+    return_date: Optional[str] = None  # Datum povratka (opcionalno za round-trip)
+    # travelers se može dijeliti, ali ako želiš odvojeno: flight_passengers: Optional[int] = None
+    flights: Optional[List[FlightData]] = None  # Lista pronađenih letova
+    selected_flight: Optional[FlightData] = None  # Kada user izabere let
+
+    # Možda dodati i druge filtere za letove ako je potrebno (npr. direct_flights_only)

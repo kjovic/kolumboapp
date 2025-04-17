@@ -6,6 +6,7 @@ from langchain.chat_models import init_chat_model
 from agent.config import Configuration
 from agent.state import State
 from agent.tools import BOOKING_AGENT_TOOLS
+from agent.flight_tools import FLIGHT_AGENT_TOOLS
 from langgraph.graph import StateGraph
 from langgraph.constants import START
 from langgraph.prebuilt import ToolNode

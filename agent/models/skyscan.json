@@ -1,0 +1,3788 @@
+[{
+  "data": [
+    {
+      "price": {
+        "raw": 221.42,
+        "formatted": "222 €",
+        "pricingOptionId": "9nPe5ds5gBEj"
+      },
+      "vendor": "Ryanair",
+      "firstCarrier": "Ryanair",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/ryan/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/airli/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|-|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|-|-&carriers=-31915&operators=-30543,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=221.42&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS5mIpqkzME2Lh2DaBUYqFY18jo0LDnDWH2YxYFZi0GBmzmDyCALL3C3AlAAAA|-3224042361253344422|1,H4sIAAAAAAAA_-NS5mIpqkzME2Lh2NfIKMXCsW0Co0LDo22H2YxYFZi0GBmzmDyCAKAkb94lAAAA|3833571988903060114|1&q_sources=JACQUARD,JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:55&pqid=false&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507070905--31915-0-16574-2507071030|16574-2507091130--31915-0-18486-2507091445",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507070905--31915-0-16574-2507071030",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T09:05:00",
+          "arrival": "2025-07-07T10:30:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "alternateId": "4P",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-16574-2507070905-2507071030--31915",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T09:05:00",
+              "arrival": "2025-07-07T10:30:00",
+              "durationInMinutes": 145,
+              "flightNumber": "3104",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": "LW"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "16574-2507091130--31915-0-18486-2507091445",
+          "origin": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 135,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T11:30:00",
+          "arrival": "2025-07-09T14:45:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "alternateId": "4P",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "16574-18486-2507091130-2507091445--31915",
+              "origin": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T11:30:00",
+              "arrival": "2025-07-09T14:45:00",
+              "durationInMinutes": 135,
+              "flightNumber": "2190",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": "LW"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "ryan"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 221.42
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 221.42
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "ryan",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/ryan/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/airli/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|-|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|-|-&carriers=-31915&operators=-30543,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=221.42&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS5mIpqkzME2Lh2DaBUYqFY18jo0LDnDWH2YxYFZi0GBmzmDyCALL3C3AlAAAA|-3224042361253344422|1,H4sIAAAAAAAA_-NS5mIpqkzME2Lh2NfIKMXCsW0Co0LDo22H2YxYFZi0GBmzmDyCAKAkb94lAAAA|3833571988903060114|1&q_sources=JACQUARD,JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:55&pqid=false&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "9nPe5ds5gBEj",
+          "fareAttributes": {},
+          "agentNames": [
+            "Ryanair"
+          ],
+          "agentName": "Ryanair"
+        },
+        {
+          "agentIds": [
+            "lmhr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 228.15
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 228.15
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "lmhr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|T|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-31915&operators=-30543,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=228.15&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|1905313808592251289|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "sf7eam5B4apc",
+          "fareAttributes": {},
+          "agentNames": [
+            "lastminute.com"
+          ],
+          "agentName": "lastminute.com"
+        },
+        {
+          "agentIds": [
+            "mthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 235.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 235.99
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "mthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|-|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|-|-&carriers=-31915&operators=-30543,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=235.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|1514321123603267033|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "Ujzz6TIJdutt",
+          "fareAttributes": {},
+          "agentNames": [
+            "Mytrip"
+          ],
+          "agentName": "Mytrip"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 242.52
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 242.52
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|T|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-31915&operators=-30543,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=242.52&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|-1097324039277810518|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "BNVcdf6vEuDL",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.999,
+      "tags": [
+        "cheapest"
+      ]
+    },
+    {
+      "price": {
+        "raw": 259.98,
+        "formatted": "260 €",
+        "pricingOptionId": "2hhGS5Pf8Rkf"
+      },
+      "vendor": "Kiwi.com",
+      "firstCarrier": "Ryanair",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|T|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-31915&operators=-31915,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=259.98&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|-925276653435253747|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507072100--31915-0-16574-2507072225|16574-2507091130--31915-0-18486-2507091445",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507072100--31915-0-16574-2507072225",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T21:00:00",
+          "arrival": "2025-07-07T22:25:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-16574-2507072100-2507072225--31915",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T21:00:00",
+              "arrival": "2025-07-07T22:25:00",
+              "durationInMinutes": 145,
+              "flightNumber": "2189",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "16574-2507091130--31915-0-18486-2507091445",
+          "origin": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 135,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T11:30:00",
+          "arrival": "2025-07-09T14:45:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "alternateId": "4P",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "16574-18486-2507091130-2507091445--31915",
+              "origin": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T11:30:00",
+              "arrival": "2025-07-09T14:45:00",
+              "durationInMinutes": 135,
+              "flightNumber": "2190",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": "LW"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 259.98
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 259.98
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|T|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-31915&operators=-31915,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=259.98&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|-925276653435253747|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "2hhGS5Pf8Rkf",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        },
+        {
+          "agentIds": [
+            "ryan"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 270.61
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 270.61
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "ryan",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/ryan/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/airli/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|-|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|-|-&carriers=-31915&operators=-31915,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=270.61&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS5mIpqkzME2Lh2DaBUYqFY18jo0LDnDWH2YxYFZi0GBmzmDyCALL3C3AlAAAA|8853802952608138706|1,H4sIAAAAAAAA_-NS5mIpqkzME2Lh2NfIKMXCsW0Co0LDo22H2YxYFZi0GBmzmDyCAKAkb94lAAAA|3833571988903060114|1&q_sources=JACQUARD,JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:55&pqid=false&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "ZCfqkbKAC1Ij",
+          "fareAttributes": {},
+          "agentNames": [
+            "Ryanair"
+          ],
+          "agentName": "Ryanair"
+        },
+        {
+          "agentIds": [
+            "mthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 276.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 276.99
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "mthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|-|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|-|-&carriers=-31915&operators=-31915,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=276.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|-5004348050601472961|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "zU0FrFA-SoVk",
+          "fareAttributes": {},
+          "agentNames": [
+            "Mytrip"
+          ],
+          "agentName": "Mytrip"
+        },
+        {
+          "agentIds": [
+            "lmhr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 278.58
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 278.58
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "lmhr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.16574.2025-07-07,16574.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|J|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-31915&operators=-31915,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=278.58&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|-1307806298882533259|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "HM1Q4Nmxg7nL",
+          "fareAttributes": {},
+          "agentNames": [
+            "lastminute.com"
+          ],
+          "agentName": "lastminute.com"
+        }
+      ],
+      "score": 0.527133,
+      "tags": []
+    },
+    {
+      "price": {
+        "raw": 370.99,
+        "formatted": "371 €",
+        "pricingOptionId": "uyAQ35tTZ3ja"
+      },
+      "vendor": "Mytrip",
+      "firstCarrier": "Ryanair",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-31915,-32401&operators=-30543,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=370.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|1050757233421361150|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507070905--31915-0-16574-2507071030|13554-2507091700--32401-0-18486-2507092005",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507070905--31915-0-16574-2507071030",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T09:05:00",
+          "arrival": "2025-07-07T10:30:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "alternateId": "4P",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-16574-2507070905-2507071030--31915",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T09:05:00",
+              "arrival": "2025-07-07T10:30:00",
+              "durationInMinutes": 145,
+              "flightNumber": "3104",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": "LW"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507091700--32401-0-18486-2507092005",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 125,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T17:00:00",
+          "arrival": "2025-07-09T20:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32401,
+                "alternateId": "OU",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OU.png",
+                "name": "Croatia Airlines"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507091700-2507092005--32401",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T17:00:00",
+              "arrival": "2025-07-09T20:05:00",
+              "durationInMinutes": 125,
+              "flightNumber": "491",
+              "marketingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "operatingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "mthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 370.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 370.99
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "mthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-31915,-32401&operators=-30543,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=370.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|1050757233421361150|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "uyAQ35tTZ3ja",
+          "fareAttributes": {},
+          "agentNames": [
+            "Mytrip"
+          ],
+          "agentName": "Mytrip"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 463.1
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 463.1
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|T|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|TEASY1|T|-&carriers=-31915,-32401&operators=-30543,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=463.10&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|2524396461640199378|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "wrGW8XhxeI3D",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.564475,
+      "tags": [
+        "second_shortest"
+      ]
+    },
+    {
+      "price": {
+        "raw": 374.99,
+        "formatted": "375 €",
+        "pricingOptionId": "LzCFolQlrmyP"
+      },
+      "vendor": "Mytrip",
+      "firstCarrier": "Croatia Airlines",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|-|-&carriers=-32401,-31915&operators=-32401,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=374.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|-4746438876045310974|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507071755--32401-0-13554-2507071915|16574-2507091130--31915-0-18486-2507091445",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507071755--32401-0-13554-2507071915",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "durationInMinutes": 140,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T17:55:00",
+          "arrival": "2025-07-07T19:15:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32401,
+                "alternateId": "OU",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OU.png",
+                "name": "Croatia Airlines"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-13554-2507071755-2507071915--32401",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T17:55:00",
+              "arrival": "2025-07-07T19:15:00",
+              "durationInMinutes": 140,
+              "flightNumber": "490",
+              "marketingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "operatingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "16574-2507091130--31915-0-18486-2507091445",
+          "origin": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 135,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T11:30:00",
+          "arrival": "2025-07-09T14:45:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "alternateId": "4P",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "16574-18486-2507091130-2507091445--31915",
+              "origin": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T11:30:00",
+              "arrival": "2025-07-09T14:45:00",
+              "durationInMinutes": 135,
+              "flightNumber": "2190",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": "LW"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "mthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 374.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 374.99
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "mthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|-|-&carriers=-32401,-31915&operators=-32401,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=374.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|-4746438876045310974|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "LzCFolQlrmyP",
+          "fareAttributes": {},
+          "agentNames": [
+            "Mytrip"
+          ],
+          "agentName": "Mytrip"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 486.36
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 486.36
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|TEASY1|T|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-32401,-31915&operators=-32401,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=486.36&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|1256188782452706058|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "S0KfyIdQz0pf",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.410379,
+      "tags": []
+    },
+    {
+      "price": {
+        "raw": 415.68,
+        "formatted": "416 €",
+        "pricingOptionId": "kgk9cTLP1ErA"
+      },
+      "vendor": "lastminute.com",
+      "firstCarrier": "British Airways",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LULZ0HO|L|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-32480,-31915&operators=-32480,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=415.68&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|-5656928956498886671|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507071440--32480-0-13554-2507071620|16574-2507091130--31915-0-18486-2507091445",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507071440--32480-0-13554-2507071620",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "durationInMinutes": 160,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T14:40:00",
+          "arrival": "2025-07-07T16:20:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32480,
+                "alternateId": "BA",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                "name": "British Airways"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-13554-2507071440-2507071620--32480",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T14:40:00",
+              "arrival": "2025-07-07T16:20:00",
+              "durationInMinutes": 160,
+              "flightNumber": "849",
+              "marketingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "operatingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "16574-2507091130--31915-0-18486-2507091445",
+          "origin": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 135,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T11:30:00",
+          "arrival": "2025-07-09T14:45:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "alternateId": "4P",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "16574-18486-2507091130-2507091445--31915",
+              "origin": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T11:30:00",
+              "arrival": "2025-07-09T14:45:00",
+              "durationInMinutes": 135,
+              "flightNumber": "2190",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": "LW"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "lmhr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 415.68
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 415.68
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "lmhr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LULZ0HO|L|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-32480,-31915&operators=-32480,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=415.68&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|-5656928956498886671|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "kgk9cTLP1ErA",
+          "fareAttributes": {},
+          "agentNames": [
+            "lastminute.com"
+          ],
+          "agentName": "lastminute.com"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 442.12
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 442.12
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "16574-18486-2507091130-2507091445--31915"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LULZ0HO|L|-,flight|-31915|2190|16574|2025-07-09T11:30|18486|2025-07-09T14:45|135|-|J|-&carriers=-32480,-31915&operators=-32480,-30543&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=442.12&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|2678748719678962469|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "6vsb6UFcIN1t",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.420188,
+      "tags": []
+    },
+    {
+      "price": {
+        "raw": 419.99,
+        "formatted": "420 €",
+        "pricingOptionId": "X9L2s8IotYc1"
+      },
+      "vendor": "Mytrip",
+      "firstCarrier": "Ryanair",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-31915,-32401&operators=-31915,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=419.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|-2812685754624425514|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507072100--31915-0-16574-2507072225|13554-2507091700--32401-0-18486-2507092005",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507072100--31915-0-16574-2507072225",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T21:00:00",
+          "arrival": "2025-07-07T22:25:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-16574-2507072100-2507072225--31915",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T21:00:00",
+              "arrival": "2025-07-07T22:25:00",
+              "durationInMinutes": 145,
+              "flightNumber": "2189",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507091700--32401-0-18486-2507092005",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 125,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T17:00:00",
+          "arrival": "2025-07-09T20:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32401,
+                "alternateId": "OU",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OU.png",
+                "name": "Croatia Airlines"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507091700-2507092005--32401",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T17:00:00",
+              "arrival": "2025-07-09T20:05:00",
+              "durationInMinutes": 125,
+              "flightNumber": "491",
+              "marketingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "operatingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "mthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 419.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 419.99
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "mthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-31915,-32401&operators=-31915,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=419.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|-2812685754624425514|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "X9L2s8IotYc1",
+          "fareAttributes": {},
+          "agentNames": [
+            "Mytrip"
+          ],
+          "agentName": "Mytrip"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 481.35
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 481.35
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|T|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|TEASY1|T|-&carriers=-31915,-32401&operators=-31915,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=481.35&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|-1591205931470426487|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "8uHRlMCg1M-y",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.365267,
+      "tags": [
+        "third_shortest"
+      ]
+    },
+    {
+      "price": {
+        "raw": 420,
+        "formatted": "420 €",
+        "pricingOptionId": "6q3I5L2ppz9c"
+      },
+      "vendor": "BudgetAir",
+      "firstCarrier": "Croatia Airlines",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/bghr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=420.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJSs8oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAKxWrhiYAAAA|6066615545927435131|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:10&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507071755--32401-0-13554-2507071915|13554-2507091700--32401-0-18486-2507092005",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507071755--32401-0-13554-2507071915",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 140,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T17:55:00",
+          "arrival": "2025-07-07T19:15:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32401,
+                "alternateId": "OU",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OU.png",
+                "name": "Croatia Airlines"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-13554-2507071755-2507071915--32401",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T17:55:00",
+              "arrival": "2025-07-07T19:15:00",
+              "durationInMinutes": 140,
+              "flightNumber": "490",
+              "marketingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "operatingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507091700--32401-0-18486-2507092005",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 125,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T17:00:00",
+          "arrival": "2025-07-09T20:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32401,
+                "alternateId": "OU",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OU.png",
+                "name": "Croatia Airlines"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507091700-2507092005--32401",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T17:00:00",
+              "arrival": "2025-07-09T20:05:00",
+              "durationInMinutes": 125,
+              "flightNumber": "491",
+              "marketingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "operatingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "bghr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 420
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 420
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "bghr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/bghr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=420.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJSs8oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAKxWrhiYAAAA|6066615545927435131|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:10&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "6q3I5L2ppz9c",
+          "fareAttributes": {},
+          "agentNames": [
+            "BudgetAir"
+          ],
+          "agentName": "BudgetAir"
+        },
+        {
+          "agentIds": [
+            "mthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 421.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 421.99
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "mthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/mthr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=421.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GLJLckoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBAA2e7eoKwAAAA|6557674062984163097|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:02&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "ss3suT9IhytH",
+          "fareAttributes": {},
+          "agentNames": [
+            "Mytrip"
+          ],
+          "agentName": "Mytrip"
+        },
+        {
+          "agentIds": [
+            "pehr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 430.95
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 430.95
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "pehr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/pehr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|TEASY2|T|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|TEASY2|T|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=430.95&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpSM0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAAo_8hyYAAAA|-6322618510296844256|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=false&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "HG-aD_NkZpN2",
+          "fareAttributes": {},
+          "agentNames": [
+            "Tripair.com"
+          ],
+          "agentName": "Tripair.com"
+        },
+        {
+          "agentIds": [
+            "obfc"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 434.91
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 434.91
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "obfc",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/obfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=434.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJT0pLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAoRq5aCYAAAA|-5712075627105857775|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "rCZpKrzMrfjD",
+          "fareAttributes": {},
+          "agentNames": [
+            "Opodo"
+          ],
+          "agentName": "Opodo"
+        },
+        {
+          "agentIds": [
+            "ebfc"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 437.91
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 437.91
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "ebfc",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/ebfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=437.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJTUpLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAPDfe3iYAAAA|-5712075627105857775|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "Kmofr5uF-cps",
+          "fareAttributes": {},
+          "agentNames": [
+            "eDreams"
+          ],
+          "agentName": "eDreams"
+        },
+        {
+          "agentIds": [
+            "cthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 440
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 440
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "cthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/cthr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=440.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-My4GJJLskoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjEmpqn6-5UxewaGgQAF0WLFjIAAAA|8236451485775555223|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:01&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "QEfrPrMACy7B",
+          "fareAttributes": {},
+          "agentNames": [
+            "Trip.com"
+          ],
+          "agentName": "Trip.com"
+        },
+        {
+          "agentIds": [
+            "bcdk"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 448.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 448.99
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "bcdk",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/bcdk/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=448.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-PS5GJJSk7JFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjF7BoaBADE6iyWKwAAAA|1471593651861555614|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:01&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "gQ-xmJ-0hMie",
+          "fareAttributes": {},
+          "agentNames": [
+            "Booking.com"
+          ],
+          "agentName": "Booking.com"
+        },
+        {
+          "agentIds": [
+            "croa"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 484.78
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 484.78
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "croa",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/croa/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/airli/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=484.78&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJLspPFGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAZjIZ0yYAAAA|-2679441488730897874|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:04&pqid=false&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "y9lcVItSjl-t",
+          "fareAttributes": {},
+          "agentNames": [
+            "Croatia Airlines"
+          ],
+          "agentName": "Croatia Airlines"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 652
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 652
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|TEASY2|T|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|TEASY2|T|-&carriers=-32401&operators=-32401,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=652.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|-1983468834157448750|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "JJTIDfAjOQoy",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.697534,
+      "tags": [
+        "shortest"
+      ]
+    },
+    {
+      "price": {
+        "raw": 512.91,
+        "formatted": "513 €",
+        "pricingOptionId": "CcWoVCFirO5n"
+      },
+      "vendor": "Opodo",
+      "firstCarrier": "British Airways",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/obfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32480,-32401&operators=-32480,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=512.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJT0pLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAoRq5aCYAAAA|8312143568203494702|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507071440--32480-0-13554-2507071620|13554-2507091700--32401-0-18486-2507092005",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507071440--32480-0-13554-2507071620",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 160,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T14:40:00",
+          "arrival": "2025-07-07T16:20:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32480,
+                "alternateId": "BA",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                "name": "British Airways"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-13554-2507071440-2507071620--32480",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T14:40:00",
+              "arrival": "2025-07-07T16:20:00",
+              "durationInMinutes": 160,
+              "flightNumber": "849",
+              "marketingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "operatingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507091700--32401-0-18486-2507092005",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 125,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T17:00:00",
+          "arrival": "2025-07-09T20:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32401,
+                "alternateId": "OU",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OU.png",
+                "name": "Croatia Airlines"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507091700-2507092005--32401",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T17:00:00",
+              "arrival": "2025-07-09T20:05:00",
+              "durationInMinutes": 125,
+              "flightNumber": "491",
+              "marketingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "operatingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "obfc"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 512.91
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 512.91
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "obfc",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/obfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32480,-32401&operators=-32480,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=512.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJT0pLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAoRq5aCYAAAA|8312143568203494702|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "CcWoVCFirO5n",
+          "fareAttributes": {},
+          "agentNames": [
+            "Opodo"
+          ],
+          "agentName": "Opodo"
+        },
+        {
+          "agentIds": [
+            "ebfc"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 515.91
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 515.91
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "ebfc",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/ebfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|-|-|-&carriers=-32480,-32401&operators=-32480,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=515.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJTUpLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAPDfe3iYAAAA|8312143568203494702|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "0g8Ag5TE1_Xb",
+          "fareAttributes": {},
+          "agentNames": [
+            "eDreams"
+          ],
+          "agentName": "eDreams"
+        },
+        {
+          "agentIds": [
+            "pehr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 582.34
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 582.34
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "pehr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/pehr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LLZ0HO|L|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|TEASY1|T|-&carriers=-32480,-32401&operators=-32480,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=582.34&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpSM0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAAo_8hyYAAAA|7221989969191987747|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=false&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "IAiurRe6Yd_S",
+          "fareAttributes": {},
+          "agentNames": [
+            "Tripair.com"
+          ],
+          "agentName": "Tripair.com"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 664
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 664
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507091700-2507092005--32401"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LULZ0HO|L|-,flight|-32401|491|13554|2025-07-09T17:00|18486|2025-07-09T20:05|125|TEASY1|T|-&carriers=-32480,-32401&operators=-32480,-32401&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=664.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|-4780177217966842595|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "0SKlWaiCSAxB",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.419744,
+      "tags": []
+    },
+    {
+      "price": {
+        "raw": 704.66,
+        "formatted": "705 €",
+        "pricingOptionId": "PF9HeKrOtqA6"
+      },
+      "vendor": "lastminute.com",
+      "firstCarrier": "Ryanair",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|T|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-31915,-32480&operators=-30543,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=704.66&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|3680836609853152046|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507070905--31915-0-16574-2507071030|13554-2507090840--32480-0-18486-2507091205",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507070905--31915-0-16574-2507071030",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T09:05:00",
+          "arrival": "2025-07-07T10:30:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operating": [
+              {
+                "id": -30543,
+                "alternateId": "4P",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/4P.png",
+                "name": "Lauda Europe"
+              }
+            ],
+            "operationType": "not_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-16574-2507070905-2507071030--31915",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T09:05:00",
+              "arrival": "2025-07-07T10:30:00",
+              "durationInMinutes": 145,
+              "flightNumber": "3104",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -30543,
+                "name": "Lauda Europe",
+                "alternateId": "4P",
+                "allianceId": 0,
+                "displayCode": "LW"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507090840--32480-0-18486-2507091205",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T08:40:00",
+          "arrival": "2025-07-09T12:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32480,
+                "alternateId": "BA",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                "name": "British Airways"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507090840-2507091205--32480",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T08:40:00",
+              "arrival": "2025-07-09T12:05:00",
+              "durationInMinutes": 145,
+              "flightNumber": "848",
+              "marketingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "operatingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "lmhr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 704.66
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 704.66
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "lmhr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|T|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-31915,-32480&operators=-30543,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=704.66&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|3680836609853152046|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "PF9HeKrOtqA6",
+          "fareAttributes": {},
+          "agentNames": [
+            "lastminute.com"
+          ],
+          "agentName": "lastminute.com"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 734.02
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 734.02
+              },
+              "segmentIds": [
+                "18486-16574-2507070905-2507071030--31915",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|3104|18486|2025-07-07T09:05|16574|2025-07-07T10:30|145|-|T|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-31915,-32480&operators=-30543,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=734.02&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|9162313280488273192|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "uqTY2s9zJ5AN",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.320848,
+      "tags": []
+    },
+    {
+      "price": {
+        "raw": 752.26,
+        "formatted": "753 €",
+        "pricingOptionId": "eMZr7MmTcM6c"
+      },
+      "vendor": "Kiwi.com",
+      "firstCarrier": "Ryanair",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|T|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-31915,-32480&operators=-31915,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=752.26&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|7040243180052360864|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507072100--31915-0-16574-2507072225|13554-2507090840--32480-0-18486-2507091205",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507072100--31915-0-16574-2507072225",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "STN",
+            "entityId": "95565052",
+            "name": "London Stansted",
+            "displayCode": "STN",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T21:00:00",
+          "arrival": "2025-07-07T22:25:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -31915,
+                "alternateId": "FR",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                "name": "Ryanair"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-16574-2507072100-2507072225--31915",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "STN",
+                "displayCode": "STN",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Stansted",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T21:00:00",
+              "arrival": "2025-07-07T22:25:00",
+              "durationInMinutes": 145,
+              "flightNumber": "2189",
+              "marketingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "operatingCarrier": {
+                "id": -31915,
+                "name": "Ryanair",
+                "alternateId": "FR",
+                "allianceId": 0,
+                "displayCode": "FR"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507090840--32480-0-18486-2507091205",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": true
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T08:40:00",
+          "arrival": "2025-07-09T12:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32480,
+                "alternateId": "BA",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                "name": "British Airways"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507090840-2507091205--32480",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T08:40:00",
+              "arrival": "2025-07-09T12:05:00",
+              "durationInMinutes": 145,
+              "flightNumber": "848",
+              "marketingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "operatingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 752.26
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 752.26
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|T|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-31915,-32480&operators=-31915,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=752.26&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|7040243180052360864|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "eMZr7MmTcM6c",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        },
+        {
+          "agentIds": [
+            "lmhr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 754.23
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 754.23
+              },
+              "segmentIds": [
+                "18486-16574-2507072100-2507072225--31915",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "lmhr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.4698.2025-07-07,4698.18486.2025-07-09/air/trava/flights?itinerary=flight|-31915|2189|18486|2025-07-07T21:00|16574|2025-07-07T22:25|145|-|J|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-31915,-32480&operators=-31915,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=754.23&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|8072255793586014306|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "ufcqlO0CUgAz",
+          "fareAttributes": {},
+          "agentNames": [
+            "lastminute.com"
+          ],
+          "agentName": "lastminute.com"
+        }
+      ],
+      "score": 0.287661,
+      "tags": []
+    },
+    {
+      "price": {
+        "raw": 788.91,
+        "formatted": "789 €",
+        "pricingOptionId": "x7uYM0Fe3daL"
+      },
+      "vendor": "Opodo",
+      "firstCarrier": "British Airways",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/obfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|-|-|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=788.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJT0pLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAoRq5aCYAAAA|-3677403004398856243|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507071440--32480-0-13554-2507071620|13554-2507090840--32480-0-18486-2507091205",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507071440--32480-0-13554-2507071620",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 160,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T14:40:00",
+          "arrival": "2025-07-07T16:20:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32480,
+                "alternateId": "BA",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                "name": "British Airways"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-13554-2507071440-2507071620--32480",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T14:40:00",
+              "arrival": "2025-07-07T16:20:00",
+              "durationInMinutes": 160,
+              "flightNumber": "849",
+              "marketingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "operatingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507090840--32480-0-18486-2507091205",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T08:40:00",
+          "arrival": "2025-07-09T12:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32480,
+                "alternateId": "BA",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                "name": "British Airways"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507090840-2507091205--32480",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T08:40:00",
+              "arrival": "2025-07-09T12:05:00",
+              "durationInMinutes": 145,
+              "flightNumber": "848",
+              "marketingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "operatingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "obfc"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 788.91
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 788.91
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "obfc",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/obfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|-|-|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=788.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJT0pLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAoRq5aCYAAAA|-3677403004398856243|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "x7uYM0Fe3daL",
+          "fareAttributes": {},
+          "agentNames": [
+            "Opodo"
+          ],
+          "agentName": "Opodo"
+        },
+        {
+          "agentIds": [
+            "ebfc"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 788.91
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 788.91
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "ebfc",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/ebfc/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|-|-|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=788.91&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJTUpLFmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAPDfe3iYAAAA|-3677403004398856243|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:59&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "ylv44racb2Jk",
+          "fareAttributes": {},
+          "agentNames": [
+            "eDreams"
+          ],
+          "agentName": "eDreams"
+        },
+        {
+          "agentIds": [
+            "bghr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 791.02
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 791.02
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "bghr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/bghr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|-|-|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=791.02&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJSs8oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAKxWrhiYAAAA|-4865270776683013231|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:10&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "Gseo1uLv0bc9",
+          "fareAttributes": {},
+          "agentNames": [
+            "BudgetAir"
+          ],
+          "agentName": "BudgetAir"
+        },
+        {
+          "agentIds": [
+            "ba__"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 807.78
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 807.78
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "ba__",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/ba__/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/airli/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LULZ0H|L|Basic,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0H|H|Basic&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=807.78&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WJJSoyPF2Lh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgA08cx6iYAAAA|-4330805286089242686|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:55&pqid=false&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "7aS6EMOcpJQ4",
+          "fareAttributes": {},
+          "agentNames": [
+            "British Airways"
+          ],
+          "agentName": "British Airways"
+        },
+        {
+          "agentIds": [
+            "cthr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 853
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 853
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "cthr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/cthr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|-|-|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|-|-|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=853.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-My4GJJLskoEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyFjEmpqn6-5UxewaGgQAF0WLFjIAAAA|-6726627333452663383|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:23:01&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "W4hJ6jA1RwIE",
+          "fareAttributes": {},
+          "agentNames": [
+            "Trip.com"
+          ],
+          "agentName": "Trip.com"
+        },
+        {
+          "agentIds": [
+            "lmhr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 904.99
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 904.99
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "lmhr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/lmhr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LULZ0HO|L|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=904.99&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WLJyc0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAUdzFoyYAAAA|409767270182002153|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "7L9Cmy3-d3vW",
+          "fareAttributes": {},
+          "agentNames": [
+            "lastminute.com"
+          ],
+          "agentName": "lastminute.com"
+        },
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 940
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 940
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LULZ0HO|L|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=940.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|5231900332686165532|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "JUFwa1HEkbQ8",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        },
+        {
+          "agentIds": [
+            "pehr"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 947.2
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 947.2
+              },
+              "segmentIds": [
+                "18486-13554-2507071440-2507071620--32480",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "pehr",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/pehr/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32480|849|18486|2025-07-07T14:40|13554|2025-07-07T16:20|160|LLZ0H|L|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HHZ0H|H|-&carriers=-32480&operators=-32480,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=947.20&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpSM0oEmLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgAAo_8hyYAAAA|2216286685946053227|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:57&pqid=false&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "JV1ZIVkDk3ga",
+          "fareAttributes": {},
+          "agentNames": [
+            "Tripair.com"
+          ],
+          "agentName": "Tripair.com"
+        }
+      ],
+      "score": 0.243492,
+      "tags": []
+    },
+    {
+      "price": {
+        "raw": 985,
+        "formatted": "985 €",
+        "pricingOptionId": "B7Z9uBRqrV0s"
+      },
+      "vendor": "Kiwi.com",
+      "firstCarrier": "Croatia Airlines",
+      "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|TEASY1|T|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-32401,-32480&operators=-32401,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=985.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|2151054227501161655|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare",
+      "eco": null,
+      "fareAttributes": {},
+      "farePolicy": {
+        "isChangeAllowed": false,
+        "isPartiallyChangeable": false,
+        "isCancellationAllowed": false,
+        "isPartiallyRefundable": false
+      },
+      "hasFlexibleOptions": false,
+      "id": "18486-2507071755--32401-0-13554-2507071915|13554-2507090840--32480-0-18486-2507091205",
+      "isMashUp": false,
+      "isProtectedSelfTransfer": false,
+      "isSelfTransfer": false,
+      "legs": [
+        {
+          "id": "18486-2507071755--32401-0-13554-2507071915",
+          "origin": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 140,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-07T17:55:00",
+          "arrival": "2025-07-07T19:15:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32401,
+                "alternateId": "OU",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OU.png",
+                "name": "Croatia Airlines"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "18486-13554-2507071755-2507071915--32401",
+              "origin": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "destination": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "departure": "2025-07-07T17:55:00",
+              "arrival": "2025-07-07T19:15:00",
+              "durationInMinutes": 140,
+              "flightNumber": "490",
+              "marketingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "operatingCarrier": {
+                "id": -32401,
+                "name": "Croatia Airlines",
+                "alternateId": "OU",
+                "allianceId": -31999,
+                "displayCode": "OU"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        },
+        {
+          "id": "13554-2507090840--32480-0-18486-2507091205",
+          "origin": {
+            "id": "LHR",
+            "entityId": "95565050",
+            "name": "London Heathrow",
+            "displayCode": "LHR",
+            "city": "London",
+            "country": "United Kingdom",
+            "isHighlighted": false
+          },
+          "destination": {
+            "id": "ZAG",
+            "entityId": "95673639",
+            "name": "Zagreb",
+            "displayCode": "ZAG",
+            "city": "Zagreb",
+            "country": "Croatia",
+            "isHighlighted": false
+          },
+          "durationInMinutes": 145,
+          "stopCount": 0,
+          "isSmallestStops": false,
+          "departure": "2025-07-09T08:40:00",
+          "arrival": "2025-07-09T12:05:00",
+          "timeDeltaInDays": 0,
+          "carriers": {
+            "marketing": [
+              {
+                "id": -32480,
+                "alternateId": "BA",
+                "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BA.png",
+                "name": "British Airways"
+              }
+            ],
+            "operationType": "fully_operated"
+          },
+          "segments": [
+            {
+              "id": "13554-18486-2507090840-2507091205--32480",
+              "origin": {
+                "flightPlaceId": "LHR",
+                "displayCode": "LHR",
+                "parent": {
+                  "flightPlaceId": "LOND",
+                  "displayCode": "LON",
+                  "name": "London",
+                  "type": "City"
+                },
+                "name": "London Heathrow",
+                "type": "Airport",
+                "country": "United Kingdom"
+              },
+              "destination": {
+                "flightPlaceId": "ZAG",
+                "displayCode": "ZAG",
+                "parent": {
+                  "flightPlaceId": "ZAGR",
+                  "displayCode": "ZAG",
+                  "name": "Zagreb",
+                  "type": "City"
+                },
+                "name": "Zagreb",
+                "type": "Airport",
+                "country": "Croatia"
+              },
+              "departure": "2025-07-09T08:40:00",
+              "arrival": "2025-07-09T12:05:00",
+              "durationInMinutes": 145,
+              "flightNumber": "848",
+              "marketingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "operatingCarrier": {
+                "id": -32480,
+                "name": "British Airways",
+                "alternateId": "BA",
+                "allianceId": -32000,
+                "displayCode": "BA"
+              },
+              "transportType": "TRANSPORT_TYPE_FLIGHT"
+            }
+          ]
+        }
+      ],
+      "pricingOptions": [
+        {
+          "agentIds": [
+            "skyp"
+          ],
+          "price": {
+            "updateStatus": "current",
+            "amount": 985
+          },
+          "items": [
+            {
+              "price": {
+                "updateStatus": "current",
+                "amount": 985
+              },
+              "segmentIds": [
+                "18486-13554-2507071755-2507071915--32401",
+                "13554-18486-2507090840-2507091205--32480"
+              ],
+              "bookingProposition": "PBOOK",
+              "agentId": "skyp",
+              "url": "https://www.skyscanner.net/transport_deeplink/4.0/HR/en-GB/EUR/skyp/2/18486.13554.2025-07-07,13554.18486.2025-07-09/air/trava/flights?itinerary=flight|-32401|490|18486|2025-07-07T17:55|13554|2025-07-07T19:15|140|TEASY1|T|-,flight|-32480|848|13554|2025-07-09T08:40|18486|2025-07-09T12:05|145|HXHZ0RO|H|-&carriers=-32401,-32480&operators=-32401,-32480&passengers=2;1&channel=website&cabin_class=economy&fps_session_id=03e9e27f-7359-49a2-9ec3-d268d22c4687&ticket_price=985.00&is_npt=false&is_multipart=false&client_id=skyscanner_website&request_id=191df64e-d760-4f2f-9289-347dd128deb3&q_ids=H4sIAAAAAAAA_-NS4WIpzq4sEGLh2DaBUYqZ45aKQsOcNYfZNBoebTvMZsSqwKTFyAgASiX8wSYAAAA|2151054227501161655|2&q_sources=JACQUARD&commercial_filters=false&q_datetime_utc=2025-04-17T19:22:56&pqid=true&fare_type=base_fare"
+            }
+          ],
+          "pricingOptionId": "B7Z9uBRqrV0s",
+          "fareAttributes": {},
+          "agentNames": [
+            "Kiwi.com"
+          ],
+          "agentName": "Kiwi.com"
+        }
+      ],
+      "score": 0.208704,
+      "tags": []
+    }
+  ]
+}]
