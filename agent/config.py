@@ -134,7 +134,7 @@ class Configuration:
     )
 
     model: Annotated[ModelChoice, {"__template_metadata__": {"kind": "llm"}}] = field(
-        default="google_genai/gemini-2.0-flash",
+        default="openai/gpt-4.1",
         metadata={
             "description": "Language model to use.",
             "json_schema_extra": {"langgraph_nodes": ["booking_agent"]},
