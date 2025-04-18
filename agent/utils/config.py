@@ -6,7 +6,7 @@ from typing_extensions import Annotated, Literal
 from dataclasses import dataclass, field, fields
 from langchain_core.runnables import RunnableConfig, ensure_config
 
-from agent.utils import SYSTEM_PROMPT_AGENT
+from agent.utils.prompts import SYSTEM_PROMPT_AGENT
 
 
 ModelChoice = Literal[

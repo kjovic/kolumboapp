@@ -3,7 +3,7 @@ from langchain_core.messages import AIMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_core.language_models import BaseChatModel
 from langchain.chat_models import init_chat_model
-from agent.config import Configuration
+from agent.utils.config import Configuration
 from agent.state import State
 from langgraph.graph import StateGraph
 from langgraph.constants import START
