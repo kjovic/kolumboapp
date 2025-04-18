@@ -10,15 +10,10 @@ from langgraph.types import Command
 from langchain_core.messages import ToolMessage
 from apify_client import ApifyClient
 from pydantic import ValidationError
-from datetime import datetime  # Import datetime for formatting
+from datetime import datetime
+from agent.models.flights import FlightData
 
-# Importiraj Pydantic modele za letove
-from agent.models.flights import FlightData  # Prilagodi putanju ako treba
-
-# Bolja praksa: Dohvati iz okoline, ali koristi tvoj ključ kao fallback ako nije postavljen
-APIFY_API_KEY = os.getenv(
-    "APIFY_API_KEY", "apify_api_NII4yuxkyarmhgvEwLsxXgIJAHjYbw3HyvbX"
-)
+APIFY_API_KEY = os.getenv("APIFY_API_KEY")
 
 
 def format_date_yyyymmdd_to_yymmdd(date_str: Optional[str]) -> Optional[str]:
@@ -287,7 +282,6 @@ def set_flight_details(
         update_dict["children"] = children
         if children > 0:
             confirmation_parts.append(f"with {children} children")
-        # Ovdje bi trebalo postaviti i children_ages ako ga dodamo u state
 
     if not confirmation_parts:
         return Command(
@@ -423,11 +417,3 @@ def return_flights(state: Annotated[dict, InjectedState]):
         if flight_summaries
         else "No flight details could be summarized."
     )
-
-
-# Lista novih alata za letove
-FLIGHT_AGENT_TOOLS: List[Callable[..., Any]] = [
-    set_flight_details,
-    search_flights_with_apify,
-    return_flights,
-]

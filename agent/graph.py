@@ -5,11 +5,11 @@ from langchain_core.language_models import BaseChatModel
 from langchain.chat_models import init_chat_model
 from agent.config import Configuration
 from agent.state import State
-from agent.tools import BOOKING_AGENT_TOOLS
-from agent.flight_tools import FLIGHT_AGENT_TOOLS
 from langgraph.graph import StateGraph
 from langgraph.constants import START
 from langgraph.prebuilt import ToolNode
+
+from agent.tools.tools import AGENT_TOOLS
 
 
 def load_chat_model(fully_specified_name: str) -> BaseChatModel:
@@ -26,7 +26,7 @@ async def booking_agent(
 
     configuration = Configuration.from_runnable_config(config)
 
-    model = load_chat_model(configuration.model).bind_tools(BOOKING_AGENT_TOOLS)
+    model = load_chat_model(configuration.model).bind_tools(AGENT_TOOLS)
 
     response = cast(
         AIMessage,
@@ -63,7 +63,7 @@ def route_model_output(state: State) -> Literal["__end__", "tools"]:
 builder = StateGraph(State, config_schema=Configuration)
 
 builder.add_node("booking_agent", booking_agent)
-builder.add_node("tools", ToolNode(BOOKING_AGENT_TOOLS))
+builder.add_node("tools", ToolNode(AGENT_TOOLS))
 
 builder.add_edge(START, "booking_agent")
 builder.add_conditional_edges("booking_agent", route_model_output)

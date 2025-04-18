@@ -2,12 +2,6 @@
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel, HttpUrl, Field
 
-# --- Model Definitions ---
-# (Zalijepi ovdje SVE klase koje si definirao za letove:
-#  ParentPlace, FlightPlace, CarrierBase, SegmentCarrier, LegCarrier,
-#  Segment, LegLocation, LegCarriers, Leg, Price, Eco, FarePolicy,
-#  PriceDetail, SegmentIdItem, PricingOption, FlightData, Root)
-
 
 class ParentPlace(BaseModel):
     """Simplified structure for the 'parent' field within FlightPlace."""
@@ -158,6 +152,4 @@ class FlightData(BaseModel):
 
 
 class Root(BaseModel):
-    # Ovaj model je koristan ako Apify vraća podatke omotane u {"data": [...]}
-    # Ako vraća direktno listu FlightData objekata, Root nije nužno potreban za Apify tool
     data: Optional[List[FlightData]] = None

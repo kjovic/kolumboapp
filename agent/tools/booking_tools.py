@@ -7,7 +7,7 @@ from langgraph.types import Command
 from langchain_core.messages import ToolMessage
 from apify_client import ApifyClient
 
-from agent.flight_tools import (
+from agent.tools.flight_tools import (
     return_flights,
     search_flights_with_apify,
     set_flight_details,
@@ -133,15 +133,3 @@ def set_desired_language(
 def retrieve_desired_language(state: Annotated[dict, InjectedState]):
     """Retrieve desired language."""
     return state.get("desired_language")
-
-
-BOOKING_AGENT_TOOLS: List[Callable[..., Any]] = [
-    search_hotels_with_apify,
-    set_booking_details,
-    set_desired_language,
-    retrieve_desired_language,
-    return_hotels,
-    set_flight_details,
-    search_flights_with_apify,
-    return_flights,
-]
