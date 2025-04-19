@@ -3,6 +3,102 @@
 
 LangGraph AI Travel Assistant je inteligentni agent izgrađen pomoću LangGraph i LangChain frameworka, sposoban za dinamično planiranje putovanja – uključujući pretragu letova i hotela – koristeći Apify scrapers.
 
+
+## POSTAVLJANJE PROJEKTA ZA TULIPANE POPUT MENE I KREŠE
+
+⸻
+
+✅ 1. Instalacija Pythona 🐍
+
+Prvo moraš imati instaliran Python (najčešće verziju 3.10+).
+
+🔗 Idi na https://www.python.org/downloads/
+⬇️ Skini najnoviju verziju za tvoj operativni sustav.
+☑️ VAŽNO: Prilikom instalacije obavezno označi “Add Python to PATH” prije nego klikneš “Install”.
+
+⸻
+
+🧼 2. Kloniranje repozitorija 📦
+
+Ako još nisi:
+
+git clone https://github.com/ime-tvog-projekta.git
+cd ime-tvog-projekta
+
+⸻
+
+🧪 3. Kreiranje virtualnog okruženja 🧠
+
+Virtualno okruženje omogućava da se svi paketi instaliraju lokalno, samo za taj projekt — bez da “zagađuju” cijeli sustav.
+
+U root folderu projekta (unutar VS Code-a, npr.) pokreni:
+
+python -m venv .venv
+
+Ovo će napraviti folder .venv koji sadrži sve potrebne alate.
+
+⸻
+
+▶️ 4. Aktivacija virtualnog okruženja ⚙️
+
+Na Windowsu:
+
+.venv\Scripts\activate
+
+Na macOS/Linuxu:
+
+source .venv/bin/activate
+
+✅ Kad aktiviraš env, primijetit ćeš da se u terminalu ispred puta pojavi nešto poput (.venv) — to znači da si u virtualnom svijetu! 🎮
+
+⸻
+
+📦 5. Instalacija zavisnosti iz requirements.txt 🧾
+
+U istom tom terminalu, dok je .venv aktivan, pokreni:
+
+pip install -r requirements.txt
+
+⏳ Ovo će potegnuti sve biblioteke koje su potrebne za projekt.
+
+⸻
+
+Naravno, Petar! Dodajem i objašnjenje za .env fajl i kako se koristi za čuvanje OpenAI API ključa. To je jako bitno, jer bez toga aplikacija neće moći komunicirati s OpenAI-jem.
+
+⸻
+
+🔐 6. Postavljanje .env fajla za API ključ 🗝️
+
+Tvoj projekt koristi OpenAI API — da bi to radilo, moraš unutar projekta napraviti .env fajl koji sadrži tvoj privatni API ključ.
+
+🛠️ Koraci:
+	1.	U root folderu projekta (gdje ti je i main.py, requirements.txt, itd.), napravi novi fajl koji se zove .env (doslovno tako, s točkom ispred imena).
+	2.	U taj fajl zalijepi svoj OpenAI ključ ovako:
+
+OPENAI_API_KEY=sk-ovdje-ide-tvoj-kljuc
+
+	3.	Sačuvaj fajl i ne dijeli ga nikome (ključ je privatan i može se zloupotrijebiti).
+
+⸻
+
+
+⸻
+
+❗ Napomena za GIT:
+
+Dodaj .env u .gitignore da se slučajno ne push-a na GitHub:
+
+# u .gitignore dodaj
+.env
+
+
+⸻
+
+
+🏁 KRAJ: Spreman si za pokretanje projekta 🎉
+
+Sad možeš pokrenuti svoj langgraph dev u terminalu gdje si pokrenuo virtual env
+
 🚀 Funkcionalnosti
 	•	🔍 Pretraga letova (Apify Skyscanner Scraper)
 	•	🏨 Pretraga hotela (Apify Booking Scraper)
